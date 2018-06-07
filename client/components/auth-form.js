@@ -2,12 +2,14 @@ import React from 'react'
 import {connect} from 'react-redux'
 import PropTypes from 'prop-types'
 import {auth} from '../store'
+import Navbar from './navbar';
 
 const AuthForm = (props) => {
   const {name, displayName, handleSubmit, error} = props
 
   return (
     <div className="login-wrapper">
+      <Navbar />
       <div id="main-logo">
         <img id="logo" src="../images/hanger (1).png" />
         <h1 id="sizekeeper">Sizekeeper</h1>
