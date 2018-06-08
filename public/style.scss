@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+// colors
+$color-primary: bisque;
+$black: black;
+
+
+body {
+    font-family: sans-serif;
+    background: bisque;
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  nav a {
+    display: inline-block;
+    margin: 1em;
+  }
+  
+  .form-container{
+    max-width: 525px;
+    position: relative;
+    display: table;
+    width: 100%;
+    margin: 0 auto;
+    height: 60%;
+    margin-top: 85px;
+    min-width: 150px;
+    max-width: 400px;
+    background: transparent;
+    transition: all 1000ms ease-in-out;
+  }
+  .form-login{
+    display: table-cell;
+    /* text-align: center; */
+    vertical-align: middle;
+  }
+  input{
+    margin: auto;
+    display: block;
+    margin-top: -4px;
+    margin-bottom: 20px;
+    border-radius: 0px;
+    width: 100%;
+    height: 37px;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-bottom: 1px solid $black;
+    color: #8a8681;
+    font-size: 1em;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    transition: all 150ms ease-in-out;
+  }
+  
+  button{
+    width: 15%;
+    height: 35px;
+    margin: auto;
+    overflow: hidden;
+    padding: 5px 10px;
+    margin-top: 50px;
+    background: rgba(191, 170, 130, 0.3);
+    cursor: pointer;
+    font-size: 1em;
+    border-style: none;
+    min-width: 10vw;
+    transition: all 200ms ease-in-out;
+  }
+  
+  #login-btn-wrapper{
+    margin: auto;
+    width: 35%;
+    display: table;
+  }
+  
+  #main-logo{
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  #logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+  }
+  
+  #sizekeeper{
+    text-align: center;
+    vertical-align: middle;
+  }  
+  
+  #label{
+    margin-bottom: -5px;  
+    font-size: 1.1em;
+  }
+  
+  #member{
+    position: absolute;
+    top: 0px;
+    right: 100px;
+    padding: 27px;
+    color: #948787;
+  }
+  
+  #sign-up{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 10px;
+    color: $black;
+    border: 1px solid $black;
+  }
+  
+  
+  
+  #closet-container{
+    background: rgba(191, 170, 130, 0.3);
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+    box-shadow: 0px 24px 94px -20px rgba($black, 0.2);
+  }
+  
+  .navbar{
+    display: flex;
+  }
+  #logo-home{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+    text-align: center;
+    
+    font-size: 18px;
+  }
+  
+  .header-right{
+    float: right;
+    padding: 25px;
+  }
+  #your-closet{
+    padding: 50px;
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    letter-spacing: 2px;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .logo-home {
+      float: none;
+      display: block;
+      text-align: center;
+    }
+    nav a {
+      display: block;
+    }
+    #logo-home {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      font-size: 18px;
+    }
+    .header-right {
+      float: none;
+      text-align: center;
+    }
+  }
