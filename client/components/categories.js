@@ -18,16 +18,16 @@ class Categories extends Component {
         // const categories = this.props.categories
                 
         return (
-            <div className="container">
-                <div>
-                    <img id="logo" src="../images/skirt.png" />
-                    <img id="logo" src="../images/underwear.png" />
-                    <img id="logo" src="../images/shirt.png" />
-                    <img id="logo" src="../images/trousers.png" />
-                    <img id="logo" src="../images/boot.png" />
-                    <img id="logo" src="../images/trousers (1).png" />
-                    <img id="logo" src="../images/pamela.png" />
-                    <img id="logo" src="../images/dress1.png" />
+            <div className="container-clothes">
+                <div className="grid-container">
+                    <div className="grid-item-2">Skirt<img id="logo" src="../images/skirt.png" /></div>
+                    <div className="grid-item-2">Underwear<img id="logo" src="../images/underwear.png" /></div>
+                    <div className="grid-item-2">Top<img id="logo" src="../images/shirt.png" /></div>
+                    <div className="grid-item-3">Jeans<img id="logo" src="../images/trousers.png" /></div>
+                    <div className="grid-item">Shoes<img id="logo" src="../images/boot.png" /></div>
+                    <div className="grid-item">Pants<img id="logo" src="../images/trousers (1).png" /></div>
+                    <div className="grid-item">Hat<img id="logo" src="../images/pamela.png" /></div>
+                    <div className="grid-item-1">Dress<img id="logo" src="../images/dress1.png" /></div>
                 </div>  
                 {/* <h2 className="category-list">Choose A Category</h2>
                     <div className="categories">
